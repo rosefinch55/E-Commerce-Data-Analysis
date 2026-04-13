@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境 - 必须忽略！
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据文件（如果太大或包含敏感信息）
+data/*.csv
+data/*.xlsx
+
+# macOS
+.DS_Store
