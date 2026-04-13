@@ -27,12 +27,7 @@ venv.bak/
 *.swo
 *~
 
-# 数据文件（大文件/敏感数据不上传）
-data/*.csv
-data/*.xlsx
-data/*.sql
-data/*.zip
-data/*.rar
+
 
 # 系统自动文件
 .DS_Store  # macOS
