@@ -1,6 +1,7 @@
 # 🛍️ 电商数据分析项目 (E-Commerce-Data-Analysis)
 
 > 基于3份真实电商数据集的综合分析报告，涵盖天猫订单、双十一美妆、日化批发三个维度的数据挖掘与可视化分析。
+>   **分析工具**：Python + Pandas + Pyecharts
 
 ## 📋 项目简介
 
@@ -174,25 +175,6 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 使用说明
-
-1. **数据文件**：`data/` 中的原始数据文件较大，建议在 `.gitignore` 中忽略
-2. **图片导出**：
-   - 运行 Jupyter Notebook 中的代码生成图表
-   - 使用 `Ctrl + 鼠标滚轮` 放大页面
-   - 使用 `Win+Shift+S`（Windows）或 `Cmd+Shift+4`（Mac）截图
-   - 保存到 `assets/` 文件夹，按顺序命名
-3. **README 更新**：将截图路径更新到本文件对应位置
-
----
-
-## 📝 补充说明
-
-- **数据来源**：和鲸社区（Heywhale）
-- **分析工具**：Python + Pandas + Pyecharts
-- **适用场景**：电商运营分析、课程作业、毕业设计参考
-
----
 
 ## 📄 License
 
