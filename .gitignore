@@ -1,26 +1,50 @@
-# Python
+# Python 编译缓存
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
+*.pyd
 
-# 虚拟环境 - 必须忽略！
+# 虚拟环境（必须忽略）
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
-# Jupyter
+# Jupyter Notebook 自动文件
 .ipynb_checkpoints/
+*.ipynb.meta
+# 忽略导出的 HTML 报告（你的 render.html）
+*.html
 
-# IDE
+# 编辑器/IDE 配置
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
 
-# 数据文件（如果太大或包含敏感信息）
+# 数据文件（大文件/敏感数据不上传）
 data/*.csv
 data/*.xlsx
+data/*.sql
+data/*.zip
+data/*.rar
 
-# macOS
-.DS_Store
+# 系统自动文件
+.DS_Store  # macOS
+Thumbs.db  # Windows
+Desktop.ini
+
+# 日志文件
+logs/
+*.log
+tmp/
+
+# 环境变量/密钥（绝对不能上传）
+.env
+.ENV
+.env.local
