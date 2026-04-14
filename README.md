@@ -39,8 +39,8 @@ E-Commerce-Data-Analysis/
 │ └── 日化.xlsx # Part3: 日化批发订单（含2个sheet）
 │
 ├── part1_tmall_analysis/ # 🔍 天猫订单数据分析
-│ ├── tmall_analysis.ipynb # 主分析代码（Jupyter Notebook）
-│ └── tmall_processed.csv # 清洗后数据（可选提交）
+│ └── tmall_analysis.ipynb # 主分析代码（Jupyter Notebook）
+│ 
 │
 ├── part2_double11_beauty/ # 💄 双十一美妆销售分析
 │ └── double11_beauty.ipynb # 主分析代码 + 时间轴动态图表
@@ -93,7 +93,7 @@ jupyter notebook
 - 东部沿海地区订单量显著高于西部
 
 ### Part 2: 双十一美妆分析
-**数据集**：`双十一淘宝美妆数据.csv` (27,598条商品记录)
+**数据集**：`双十一淘宝美妆数据.csv` (27,597条商品记录)
 
 **分析维度**：
 - ✅ 销售趋势：11.01-11.14 每日销量变化
@@ -146,17 +146,6 @@ jupyter notebook
 ---
 
 ## 📦 环境依赖
-
-创建 `requirements.txt` 文件：
-
-```txt
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.4.0
-pyecharts>=2.0.0
-jupyter>=1.0.0
-openpyxl>=3.0.0
-```
 
 安装命令：
 ```bash
