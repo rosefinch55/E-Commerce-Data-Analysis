@@ -13,6 +13,13 @@
 - **模型应用**：Part 3 引入 RFM 模型评估客户价值
 
 ---
+
+## 🛠️ 技术栈
+- 数据处理：Pandas, NumPy
+- 可视化：Pyecharts, Matplotlib  
+- 建模分析：RFM 客户价值模型
+- 开发环境：Jupyter Notebook + Python 3.7+
+
 ## 📂 项目结构
 
 ```text
@@ -26,12 +33,11 @@ E-Commerce-Data-Analysis/
 │ ├── 02_daily_order_trend.png
 │ ├── 03_hourly_order_peak.png
 │ ├── 04_double11_sales_trend.png
-│ ├── 05_shop_sales_ranking_top10.png
-│ ├── 06_brand_market_share.png
-│ ├── 07_brand_price_ranking.png
-│ ├── 08_monthly_order_volume.png
-│ ├── 09_top20_cities.png
-│ └── 10_province_distribution_map.png
+│ ├── 05_brand_market_share.png
+│ ├── 06_brand_price_ranking.png
+│ ├── 07_monthly_order_volume.png
+│ ├── 08_top20_cities.png
+│ └── 09_province_distribution_map.png
 │
 ├── data/ # 📊 原始数据集
 │ ├── tmall_order_report.csv # Part1: 天猫订单数据
@@ -102,8 +108,8 @@ jupyter notebook
 - ✅ 价格定位：品牌平均价格分析
 
 **关键发现**：
-- 妮维雅销量遥遥领先
-- 双十一期间销量波动明显
+- 相宜本草销量遥遥领先
+- 娇兰化妆品最贵
 
 ### Part 3: 日化批发订单分析
 **数据集**：`日化.xlsx` (31,445条订单，含订单表和商品表)
@@ -141,7 +147,7 @@ jupyter notebook
 
 *图3：各美妆品牌销量占比*
 
-> 💡 **提示**：更多高清图表请查看 `assets/` 文件夹，共 10 张可视化图表。
+> 💡 **提示**：更多高清图表请查看 `assets/` 文件夹，共 9 张可视化图表。
 
 ---
 
