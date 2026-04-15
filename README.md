@@ -173,7 +173,7 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-MIT License © 2024
+MIT License © 2026
 
 ---
 
